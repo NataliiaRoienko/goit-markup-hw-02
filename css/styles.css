@@ -20,6 +20,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .first-part-logo {
   color: #2196f3;
@@ -34,10 +35,18 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  list-style: none;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: var(--accent-color);
+}
+
+.about-advantages-list,
+.address-list,
+.about-work-list,
+.team-list {
+  list-style: none;
 }
 
 .address-item {
@@ -54,15 +63,90 @@ body {
   color: var(--accent-color);
 }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  /* color: #ffffff; */
+}
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.hero-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
 
-color: #ffffff;
+.about-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.about-advantages-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.address-text {
+  font-style: 400;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*  color: #ffffff; */
+}
+
+.footer-mail,
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6);  */
+}
+
+.address-list-link {
+  text-decoration: none;
+}
