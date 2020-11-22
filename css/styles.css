@@ -138,7 +138,7 @@ body {
   background: #f5f4fa;
 }
 
-.team-text {
+.team-list-item {
   background: #ffffff;
 }
 
@@ -163,6 +163,10 @@ body {
 /* ========== END OTHER SECTIONS ========== */
 
 /* ========== FOOTER ========== */
+
+.second-logo {
+  color: #ffffff;
+}
 
 .address-text {
   font-weight: 400;
