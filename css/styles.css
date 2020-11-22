@@ -55,7 +55,10 @@ body {
   color: #757575;
 }
 
-.portfolio-text,
+.portfolio-text {
+  color: var(--accent-color);
+}
+
 .studio-text {
   color: var(--accent-color);
 }
