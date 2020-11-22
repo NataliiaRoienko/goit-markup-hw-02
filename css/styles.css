@@ -67,6 +67,11 @@ body {
 
 /* ========== HERO ========== */
 
+.hero,
+.contact-info {
+  background: #2f303a;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -74,7 +79,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .hero-btn {
@@ -129,6 +134,14 @@ body {
   color: #212121;
 }
 
+.team {
+  background: #f5f4fa;
+}
+
+.team-text {
+  background: #ffffff;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -156,7 +169,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*  color: #ffffff; */
+  color: #ffffff;
 }
 
 .footer-mail,
@@ -165,7 +178,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6);  */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-list-link,
